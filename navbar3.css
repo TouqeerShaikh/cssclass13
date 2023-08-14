@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin: 5vh 5%;
+}
+/* nav-bar #1 styling */
+.nav1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #262632 ;
+    color: white;
+    margin-bottom: 4vh;
+}
+.nav1-left{
+    width: 45%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1-left-cont2, .nav1-left-cont3, .nav1-left-cont4, .nav1-left-cont5{
+    text-align: center;
+    width: 18%;
+    padding: 4px 8px;
+}
+.nav1-left-cont2:hover, .nav1-left-cont3:hover, .nav1-left-cont4:hover, .nav1-left-cont5:hover{
+    text-align: center;
+    width: 18%;
+    background-color: #484AEC;
+    border-radius: 25px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #f3f3f3;
+    cursor: pointer;
+}
+.nav1-left-cont1{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 22%;
+    padding: 4px 8px;
+}
+.nav1-left-cont1:hover{
+    text-align: center;
+    width: 22%;
+    background-color: #484AEC;
+    border-radius: 25px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #f3f3f3;
+    cursor: pointer;
+}
+.nav1-right{
+    width: 19%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1-right-cont1 button{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: #88C9B5;
+    border: 1px solid #88C9B5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav1-right-cont2 button{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    background-color: #EE3C54;
+    border: 1px solid #EE3C54;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* nav-bar #2 styling */
+.nav2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444AF8;
+    color: white;
+    margin-bottom: 4vh;
+}
+.nav2-left{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 5%;
+    width: 10%;
+    padding: 4px 8px;
+}
+.nav2-left:hover{
+    text-align: center;
+    width: 10%;
+    margin-left: 5%;
+    background-color: #EF3A59;
+    border-radius: 25px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #f3f3f3;
+    cursor: pointer;
+}
+.nav2-right{
+    width: 25%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav2-right-div1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+} 
+.nav2-right-div2{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+/* nav-bar #3 styling */
+.nav3{
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 4vh;
+    background-color: #5DCBA8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav3-left{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 10%;
+    padding: 4px 8px;
+}
+.nav3-left:hover{
+    text-align: center;
+    width: 10%;
+    background-color: #262632;
+    border-radius: 25px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #f3f3f3;
+    cursor: pointer;
+}
+.nav3-right{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 5%;
+}
+.nav3-right-div1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    background-color: #5DCBA8;
+    border: none;
+    color: white;
+}
+.nav3-right-div2{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav3-right-div1-cont4 button{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    background-color: #484AEC;
+    border: 1px solid #484AEC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* nav-bar #4 styling */
+.nav4{
+    width: 100%;
+    height: 15vh;
+    background-color: #EF3A59;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav4-left{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 10%;
+    padding: 4px 8px;
+}
+.nav4-left:hover{
+    text-align: center;
+    width: 10%;
+    background-color: #484AEC;
+    border-radius: 25px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #f3f3f3;
+    cursor: pointer;
+}
+.nav4-right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
