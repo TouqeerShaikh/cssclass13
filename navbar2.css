@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 1.5rem;
+}
+/* nav-bar1 styling */
+.nav1{
+    width: 100%;
+    height: 10vh;
+    background-color: #E0F7FF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.nav1-left{
+    margin-left: 3%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav1-right{
+    width: 40%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1-right-cont1{
+    padding-right: 8%;
+    border-right: 1px solid black;
+}
+.nav1-right-cont button{
+    background-color: #E0F7FF;
+    border: none;
+}
+/* nav-bar2 styling */
+.nav2{
+    width: 100%;
+    height: 7vh;
+    background-color: #E0F7FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2-left{
+    width: 30%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2-right{
+    margin-right: 3%;
+}
+.nav3{
+    width: 100%;
+    height: 10vh;
+    background-color: #C9F3FF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.nav2-right-cont1{
+    margin-left: 3%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav2-right-cont2{
+    margin-right: 3%;
+}
+.nav2-right-cont2 button{
+    font-size: large;
+    padding: 10px 30px;
+    background-color: #329FF4;
+    color: white;
+    border: none;
+}
+/* nav-bar3 styling */
+.nav4{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E0F7FF;
+}
+.nav4-left{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+.nav4-center{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav4-right button{
+    background-color: #329FF4;
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 25px 50px;
+}
+.nav5{
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 4vh;
+    background-color: #C9F3FF;
+    display: flex;
+    justify-content: space-between;
+}
+.nav5-left{
+    margin-left: 3%;
+}
+.nav5-center{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav5-left button{
+    background-color: #c9F3FF;
+    border: none;
+}
+.nav5-right{
+    margin-right: 3%;
+}
+/* nav-bar4 styling */
+.nav6{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    background-color: #E0F7FF;
+}
+.nav6-left{
+    font-size: 1.5rem;
+    margin-left: 3%;
+}
+.nav6-center{
+    margin-left: 8%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav6-right{
+    margin-right: 3%;
+}
+.nav6-right button{
+    font-size: large;
+    padding: 10px 30px;
+    background-color: #329FF4;
+    color: white;
+    border: none;
+}
+/* nav-bar5 styling */
+.nav7{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    background-color: #E0F7FF;
+}
+.nav7-left{
+    width: 8%;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-between;
+}
+.nav7-left-cont1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav7-center{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav7-right{
+    margin-right: 3%;
+}
+.nav7-right button{
+    font-size: large;
+    padding: 10px 30px;
+    background-color: #329FF4;
+    color: white;
+    border: none;
+}
+/* nav-bar6 styling */
+.nav8{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    background-color: #E0F7FF;
+}
+.nav8-left{
+    width: 22%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav8-left-cont1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.nav8-left-cont input[type="search"]{
+padding: 1% 1% 1% 2%;
+}
+.nav8-right{
+    width: 30%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
