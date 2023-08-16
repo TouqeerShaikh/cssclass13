@@ -6,6 +6,22 @@
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a button{
+    background-color: #262632;
+    color: white;
+    font-size: large;
+    margin-left: 50%;
+    margin-top: 1vh;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 1%;
+    position: absolute;
+}
+a button:hover{
+    background-color: #45455e;
+    color: white;
+    border: 3px solid brown;
+}
 h1{
     margin: 5vh 5%;
 }

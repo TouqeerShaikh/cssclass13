@@ -6,6 +6,22 @@
     justify-content: center;
     align-items: center;
 }
+a button{
+    background-color: #E0F7FF;
+    color: black;
+    font-size: large;
+    margin-left: 30%;
+    margin-top: 1vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    position: absolute;
+}
+a button:hover{
+    background-color: #2bb0ddce;
+    color: black;
+    border: 3px solid brown;
+}
 i{
     font-size: 1.5rem;
 }

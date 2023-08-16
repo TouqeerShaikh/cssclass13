@@ -6,6 +6,22 @@
     align-items: center;
     font-family: sans-serif;
 }
+a button{
+    background-color: #009788;
+    color: white;
+    font-size: large;
+    margin-left: 50%;
+    margin-top: 1vh;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 1%;
+    position: absolute;
+}
+a button:hover{
+    background-color: #13cebb;
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+}
 /* navbar 1 styling */
 .nav1{
     width: 100%;
