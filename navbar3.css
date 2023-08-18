@@ -16,6 +16,7 @@ a button{
     border-radius: 10px;
     padding: 1%;
     position: absolute;
+    cursor: pointer;
 }
 a button:hover{
     background-color: #45455e;
@@ -24,6 +25,11 @@ a button:hover{
 }
 h1{
     margin: 5vh 5%;
+}
+/* icon styling */
+i{
+    font-size: 1.3rem;
+    cursor: pointer;
 }
 /* nav-bar #1 styling */
 .nav1{
@@ -127,6 +133,7 @@ h1{
     margin-right: 5%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 
 }
 .nav2-right-div1{
@@ -175,11 +182,13 @@ h1{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 select{
     background-color: #5DCBA8;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .nav3-right-div2{
     width: 10%;

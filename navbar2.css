@@ -16,6 +16,7 @@ a button{
     border-radius: 10px;
     padding: 1%;
     position: absolute;
+    cursor: pointer;
 }
 a button:hover{
     background-color: #2bb0ddce;
@@ -24,6 +25,7 @@ a button:hover{
 }
 i{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 /* nav-bar1 styling */
 .nav1{
@@ -38,6 +40,7 @@ i{
     margin-left: 3%;
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .nav1-right{
     width: 40%;
@@ -48,10 +51,15 @@ i{
 .nav1-right-cont1{
     padding-right: 8%;
     border-right: 1px solid black;
+    cursor: pointer;
+}
+.nav1-right-cont{
+    cursor: pointer;
 }
 .nav1-right-cont button{
     background-color: #E0F7FF;
     border: none;
+    cursor: pointer;
 }
 /* nav-bar2 styling */
 .nav2{
@@ -67,9 +75,11 @@ i{
     margin-left: 3%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .nav2-right{
     margin-right: 3%;
+    cursor: pointer;
 }
 .nav3{
     width: 100%;
@@ -83,6 +93,7 @@ i{
     margin-left: 3%;
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .nav2-right-cont2{
     margin-right: 3%;
@@ -93,6 +104,7 @@ i{
     background-color: #329FF4;
     color: white;
     border: none;
+    cursor: pointer;
 }
 /* nav-bar3 styling */
 .nav4{
@@ -107,17 +119,20 @@ i{
     display: flex;
     justify-content: space-between;
     margin-left: 3%;
+    cursor: pointer;
 }
 .nav4-center{
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .nav4-right button{
     background-color: #329FF4;
     border: none;
     font-size: large;
     color: white;
-    padding: 25px 50px;
+    padding: 22px 50px;
+    cursor: pointer;
 }
 .nav5{
     width: 100%;
@@ -134,14 +149,17 @@ i{
     width: 30%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 
 }
 .nav5-left button{
     background-color: #c9F3FF;
     border: none;
+    cursor: pointer;
 }
 .nav5-right{
     margin-right: 3%;
+    cursor: pointer;
 }
 /* nav-bar4 styling */
 .nav6{
@@ -155,11 +173,13 @@ i{
 .nav6-left{
     font-size: 1.5rem;
     margin-left: 3%;
+    cursor: pointer;
 }
 .nav6-center{
     margin-left: 8%;
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .nav6-right{
     margin-right: 3%;
@@ -170,6 +190,7 @@ i{
     background-color: #329FF4;
     color: white;
     border: none;
+    cursor: pointer;
 }
 /* nav-bar5 styling */
 .nav7{
@@ -185,6 +206,7 @@ i{
     display: flex;
     margin-left: 3%;
     justify-content: space-between;
+    cursor: pointer;
 }
 .nav7-left-cont1{
     font-weight: bolder;
@@ -194,6 +216,7 @@ i{
     width: 30%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .nav7-right{
     margin-right: 3%;
@@ -204,6 +227,7 @@ i{
     background-color: #329FF4;
     color: white;
     border: none;
+    cursor: pointer;
 }
 /* nav-bar6 styling */
 .nav8{
@@ -223,6 +247,7 @@ i{
 .nav8-left-cont1{
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .nav8-left-cont input[type="search"]{
 padding: 1% 1% 1% 2%;
@@ -232,4 +257,5 @@ padding: 1% 1% 1% 2%;
     margin-right: 3%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
